@@ -1,4 +1,4 @@
-create table accounts
+CREATE TABLE accounts
 (
     id    BIGINT PRIMARY KEY AUTO_INCREMENT,
     login VARCHAR(32) NOT NULL UNIQUE -- and etc
@@ -10,7 +10,7 @@ CREATE TABLE regions
     name VARCHAR(256) NOT NULL UNIQUE -- and etc
 );
 
-create table viewer_stats
+CREATE TABLE viewer_stats
 (
     id         BIGINT PRIMARY KEY AUTO_INCREMENT,
     created    TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
